@@ -26,7 +26,7 @@ It is a **single source of truth** for one job:
 > **AI Systems Engineer**
 
 - **4 volumes** of layered learning (not scattered tutorials)
-- **96 lessons**, each following the *Understand → Build It → Use It → Ship It* loop
+- **96 lessons**, each following the _Understand → Build It → Use It → Ship It_ loop
 - **40+ projects** from warmups to capstones
 - **75+ interview questions** with one-click answers, organized by domain and difficulty
 - **Engineering challenges** that force you to build the thing from scratch before you ever touch a library
@@ -40,17 +40,17 @@ Everything is free, open source (MIT), and built to run on your own laptop.
 
 The AI ecosystem is fragmented. You can find:
 
-| Topic | Available? |
-|---|---|
-| Python & data structures | ✅ dozens of tutorials |
-| Machine learning | ✅ great courses |
-| Transformers | ✅ excellent papers |
-| LLMs & prompting | ✅ everywhere |
-| RAG | ✅ many tutorials |
-| AI agents | ✅ frameworks |
-| MCP | ✅ docs |
-| Docker, Kubernetes, GPUs, queues | ✅ infra courses |
-| System design, cost, reliability, evaluation | ✅ scattered articles |
+| Topic                                        | Available?             |
+| -------------------------------------------- | ---------------------- |
+| Python & data structures                     | ✅ dozens of tutorials |
+| Machine learning                             | ✅ great courses       |
+| Transformers                                 | ✅ excellent papers    |
+| LLMs & prompting                             | ✅ everywhere          |
+| RAG                                          | ✅ many tutorials      |
+| AI agents                                    | ✅ frameworks          |
+| MCP                                          | ✅ docs                |
+| Docker, Kubernetes, GPUs, queues             | ✅ infra courses       |
+| System design, cost, reliability, evaluation | ✅ scattered articles  |
 
 But **learning these in isolation does not teach you how to build a complete production AI system.**
 
@@ -98,18 +98,18 @@ Evaluation · Reliability · Performance · Cost · Deployment
 
 You don't need to read everything to begin. Pick a starting point.
 
-| Your goal | Start here | What you get |
-|---|---|---|
-| I am new, give me the complete foundation | [`Volume I`](#volume-i---computer-science--python) | Python, CS, Docker, engineering fundamentals |
-| I know Python, want the math + ML foundations | [`Volume II`](#volume-ii---machine-learning--deep-learning) | Math, classical ML, PyTorch, transformers |
-| I want to build production LLM applications | [`Volume III`](#volume-iii---llm-engineering) | Tokens, embeddings, tool calling, fine-tuning, cost |
-| I want to build RAG systems that actually work | [`Volume IV`](#volume-iv---retrieval-augmented-generation) | Chunking, vector DBs, hybrid search, reranking, eval |
-| I want to build agents that can take action | [`Volume V`](#volume-v---agentic-ai--multi-agent-systems) | Tool calling, planning, memory, multi-agent orchestration |
-| I want to use MCP to connect models to tools | [`Volume VI`](#volume-vi---model-context-protocol) | MCP servers, resources, transports, security |
-| I want to operate AI systems at scale | [`Volume VII`](#volume-vii---production-ai-infrastructure) | FastAPI, queues, Kubernetes, inference, observability |
-| I want to design AI systems at the top level | [`Volume VIII`](#volume-viii---ai-system-design) | Frameworks, case studies, capstones |
-| **I want to interview for an AI role** | [`Interview Questions`](#-interview-preparation-bank) | 75+ questions with answers by domain & difficulty |
-| **I want to build portfolio projects** | [`Projects`](#-projects) | 40+ projects with deliverables & checklists |
+| Your goal                                      | Start here                                                  | What you get                                              |
+| ---------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------- |
+| I am new, give me the complete foundation      | [`Volume I`](#volume-i---computer-science--python)          | Python, CS, Docker, engineering fundamentals              |
+| I know Python, want the math + ML foundations  | [`Volume II`](#volume-ii---machine-learning--deep-learning) | Math, classical ML, PyTorch, transformers                 |
+| I want to build production LLM applications    | [`Volume III`](#volume-iii---llm-engineering)               | Tokens, embeddings, tool calling, fine-tuning, cost       |
+| I want to build RAG systems that actually work | [`Volume IV`](#volume-iv---retrieval-augmented-generation)  | Chunking, vector DBs, hybrid search, reranking, eval      |
+| I want to build agents that can take action    | [`Volume V`](#volume-v---agentic-ai--multi-agent-systems)   | Tool calling, planning, memory, multi-agent orchestration |
+| I want to use MCP to connect models to tools   | [`Volume VI`](#volume-vi---model-context-protocol)          | MCP servers, resources, transports, security              |
+| I want to operate AI systems at scale          | [`Volume VII`](#volume-vii---production-ai-infrastructure)  | FastAPI, queues, Kubernetes, inference, observability     |
+| I want to design AI systems at the top level   | [`Volume VIII`](#volume-viii---ai-system-design)            | Frameworks, case studies, capstones                       |
+| **I want to interview for an AI role**         | [`Interview Questions`](#-interview-preparation-bank)       | 75+ questions with answers by domain & difficulty         |
+| **I want to build portfolio projects**         | [`Projects`](#-projects)                                    | 40+ projects with deliverables & checklists               |
 
 Not sure? [`CURRICULUM.md`](CURRICULUM.md) has the full linear map.
 
@@ -152,28 +152,28 @@ Every lesson follows one loop. Build, don't just read:
 
 **Goal:** Build the software engineering foundation every AI system needs.
 
-| # | Topic | Key ideas | Project |
-|---|---|---|---|
-| 1 | Python Fundamentals | Variables, functions, classes, data types | CLI Assistant |
-| 2 | Python Type System | Type hints, static checking, mypy | Typed data pipeline |
-| 3 | Object-Oriented Programming | SOLID, composition, inheritance | Plugin system |
-| 4 | Advanced Python | Generators, context managers, decorators | Custom iterable tooling |
-| 5 | Async Python | `asyncio`, event loops, concurrency | Async web scraper |
-| 6 | Concurrency | Threads, processes, GIL, locks | Parallel processing worker |
-| 7 | Memory Management | References, GC, memory profiling | Memory-leak detector |
-| 8 | Data Structures | Lists, trees, graphs, hash maps | From-scratch graph lib |
-| 9 | Algorithms | Sorting, search, DP basics | Algorithm visualizer |
-| 10 | Complexity | Big-O, amortized analysis | Benchmark suite |
-| 11 | Operating Systems | Processes, threads, IPC, syscalls | Process manager |
-| 12 | Linux | Shell, permissions, systemd | Linux ops checklist |
-| 13 | Networking | HTTP, TCP, DNS, TLS | HTTP server from scratch |
-| 14 | Databases | SQL, schema design, indexing | Design a schema |
-| 15 | Transactions | ACID, isolation, locking | Transactional demo |
-| 16 | Redis | Caching patterns, data structures | High-performance cache |
-| 17 | Software Engineering | Design patterns, architecture | Modular app skeleton |
-| 18 | Testing | Unit, integration, fixtures, coverage | Test suite with CI |
-| 19 | Git | Branches, rebasing, bisect | Feature-branch workflow |
-| 20 | Docker | Images, containers, Compose | Dockerized service |
+| #   | Topic                       | Key ideas                                 | Project                    |
+| --- | --------------------------- | ----------------------------------------- | -------------------------- |
+| 1   | Python Fundamentals         | Variables, functions, classes, data types | CLI Assistant              |
+| 2   | Python Type System          | Type hints, static checking, mypy         | Typed data pipeline        |
+| 3   | Object-Oriented Programming | SOLID, composition, inheritance           | Plugin system              |
+| 4   | Advanced Python             | Generators, context managers, decorators  | Custom iterable tooling    |
+| 5   | Async Python                | `asyncio`, event loops, concurrency       | Async web scraper          |
+| 6   | Concurrency                 | Threads, processes, GIL, locks            | Parallel processing worker |
+| 7   | Memory Management           | References, GC, memory profiling          | Memory-leak detector       |
+| 8   | Data Structures             | Lists, trees, graphs, hash maps           | From-scratch graph lib     |
+| 9   | Algorithms                  | Sorting, search, DP basics                | Algorithm visualizer       |
+| 10  | Complexity                  | Big-O, amortized analysis                 | Benchmark suite            |
+| 11  | Operating Systems           | Processes, threads, IPC, syscalls         | Process manager            |
+| 12  | Linux                       | Shell, permissions, systemd               | Linux ops checklist        |
+| 13  | Networking                  | HTTP, TCP, DNS, TLS                       | HTTP server from scratch   |
+| 14  | Databases                   | SQL, schema design, indexing              | Design a schema            |
+| 15  | Transactions                | ACID, isolation, locking                  | Transactional demo         |
+| 16  | Redis                       | Caching patterns, data structures         | High-performance cache     |
+| 17  | Software Engineering        | Design patterns, architecture             | Modular app skeleton       |
+| 18  | Testing                     | Unit, integration, fixtures, coverage     | Test suite with CI         |
+| 19  | Git                         | Branches, rebasing, bisect                | Feature-branch workflow    |
+| 20  | Docker                      | Images, containers, Compose               | Dockerized service         |
 
 **Final project:** Production-style backend API with auth, DB, caching, tests, and Docker.
 
@@ -183,19 +183,19 @@ Every lesson follows one loop. Build, don't just read:
 
 **Goal:** Understand the math and machinery behind modern AI.
 
-| # | Topic | Key ideas | Project |
-|---|---|---|---|
-| 21 | Mathematics | Linear algebra, probability, calculus, optimization | Math refresher notebook |
-| 22 | NumPy | Vectorization, broadcasting | Vectorized ML primitives |
-| 23 | Classical Machine Learning | Regression, classification, trees, ensembles | Classification pipeline |
-| 24 | ML Evaluation | Metrics, cross-validation, ROC, bias-variance | Model evaluation harness |
-| 25 | PyTorch | Tensors, autograd, modules, dataloaders | First training loop |
-| 26 | Neural Networks | MLPs, initialization, activation | Digit classifier |
-| 27 | Computer Vision | Convolutions, CNNs, architectures | Image classifier |
-| 28 | NLP Foundations | Tokenization, n-grams, embeddings | Text classifier |
-| 29 | RNNs & LSTMs | Sequence modeling, gradient flow | Sequence generator |
-| 30 | Attention | Dot-product, multi-head intuition | Attention visualizer |
-| 31 | Transformers | Encoder-decoder, positional encoding, training | Transformer from scratch |
+| #   | Topic                      | Key ideas                                           | Project                  |
+| --- | -------------------------- | --------------------------------------------------- | ------------------------ |
+| 21  | Mathematics                | Linear algebra, probability, calculus, optimization | Math refresher notebook  |
+| 22  | NumPy                      | Vectorization, broadcasting                         | Vectorized ML primitives |
+| 23  | Classical Machine Learning | Regression, classification, trees, ensembles        | Classification pipeline  |
+| 24  | ML Evaluation              | Metrics, cross-validation, ROC, bias-variance       | Model evaluation harness |
+| 25  | PyTorch                    | Tensors, autograd, modules, dataloaders             | First training loop      |
+| 26  | Neural Networks            | MLPs, initialization, activation                    | Digit classifier         |
+| 27  | Computer Vision            | Convolutions, CNNs, architectures                   | Image classifier         |
+| 28  | NLP Foundations            | Tokenization, n-grams, embeddings                   | Text classifier          |
+| 29  | RNNs & LSTMs               | Sequence modeling, gradient flow                    | Sequence generator       |
+| 30  | Attention                  | Dot-product, multi-head intuition                   | Attention visualizer     |
+| 31  | Transformers               | Encoder-decoder, positional encoding, training      | Transformer from scratch |
 
 **Final projects:** Custom transformer training loop; vision pipeline with CNN.
 
@@ -205,20 +205,20 @@ Every lesson follows one loop. Build, don't just read:
 
 **Goal:** Move from machine learning to modern language-model systems.
 
-| # | Topic | Key ideas | Project |
-|---|---|---|---|
-| 32 | Tokenization | BPE, wordpiece, vocab building | Tokenizer from scratch |
-| 33 | Embeddings | Dense vectors, cosine similarity | Semantic search core |
-| 34 | LLM Architecture | Decoder-only, causal masking, KV cache | Inference from weights |
-| 35 | Next-Token Prediction | Sampling, temperature, top-k/p | Sampling controller |
-| 36 | Context Windows | Prompt budget, context management | Context optimizer |
-| 37 | Prompt Engineering | Templates, few-shot, chain-of-thought | Prompt library |
-| 38 | Structured Outputs | JSON mode, grammar-constrained decoding | JSON extractor |
-| 39 | Function / Tool Calling | Schemas, argument validation, multi-tool | Tool dispatcher |
-| 40 | LLM Evaluation | Automated evals, graders, dashboards | Evals for a RAG system |
-| 41 | Fine-Tuning | SFT, instruction tuning, RLHF/DPO | Fine-tune a small model |
-| 42 | Quantization | int8/4, GGUF, memory-efficient formats | Quantize & compare |
-| 43 | Inference | Batching, streaming, throughput | Inference server |
+| #   | Topic                   | Key ideas                                | Project                 |
+| --- | ----------------------- | ---------------------------------------- | ----------------------- |
+| 32  | Tokenization            | BPE, wordpiece, vocab building           | Tokenizer from scratch  |
+| 33  | Embeddings              | Dense vectors, cosine similarity         | Semantic search core    |
+| 34  | LLM Architecture        | Decoder-only, causal masking, KV cache   | Inference from weights  |
+| 35  | Next-Token Prediction   | Sampling, temperature, top-k/p           | Sampling controller     |
+| 36  | Context Windows         | Prompt budget, context management        | Context optimizer       |
+| 37  | Prompt Engineering      | Templates, few-shot, chain-of-thought    | Prompt library          |
+| 38  | Structured Outputs      | JSON mode, grammar-constrained decoding  | JSON extractor          |
+| 39  | Function / Tool Calling | Schemas, argument validation, multi-tool | Tool dispatcher         |
+| 40  | LLM Evaluation          | Automated evals, graders, dashboards     | Evals for a RAG system  |
+| 41  | Fine-Tuning             | SFT, instruction tuning, RLHF/DPO        | Fine-tune a small model |
+| 42  | Quantization            | int8/4, GGUF, memory-efficient formats   | Quantize & compare      |
+| 43  | Inference               | Batching, streaming, throughput          | Inference server        |
 
 **Final projects:** AI chatbot with structured outputs; model gateway; quantization comparison harness.
 
@@ -228,21 +228,21 @@ Every lesson follows one loop. Build, don't just read:
 
 **Goal:** Understand how AI systems retrieve external knowledge and use it well.
 
-| # | Topic | Key ideas | Project |
-|---|---|---|---|
-| 44 | Why RAG? | Retrieval as a first-class component | RAG failure modes analysis |
-| 45 | Document Processing | Loaders, cleaning, metadata | Document pipeline |
-| 46 | Chunking | Fixed, recursive, semantic, overlap | Chunking strategy chooser |
-| 47 | Embedding Models | Sentence transformers, embedding APIs | Embedding service |
-| 48 | Vector Databases | Indexes, ANN search, metadata filters | Vector DB integration |
-| 49 | BM25 | Sparse search, lexical matching | BM25 retriever |
-| 50 | Hybrid Search | Reciprocal rank fusion, reweighting | Hybrid RAG core |
-| 51 | Reranking | Cross-encoders, re-rank APIs | Reranking pipeline |
-| 52 | Context Compression | Summarization, selective context | Context compressor |
-| 53 | Query Transformation | Expansion, rewriting, rephrasing | Query transformer |
-| 54 | Advanced RAG | GraphRAG, multi-hop, agentic retrieval | Advanced RAG module |
-| 55 | RAG Evaluation | Retrieval recall, answer faithfulness | Retrieval eval harness |
-| 56 | Production RAG | Caching, batching, failure handling | Production RAG API |
+| #   | Topic                | Key ideas                              | Project                    |
+| --- | -------------------- | -------------------------------------- | -------------------------- |
+| 44  | Why RAG?             | Retrieval as a first-class component   | RAG failure modes analysis |
+| 45  | Document Processing  | Loaders, cleaning, metadata            | Document pipeline          |
+| 46  | Chunking             | Fixed, recursive, semantic, overlap    | Chunking strategy chooser  |
+| 47  | Embedding Models     | Sentence transformers, embedding APIs  | Embedding service          |
+| 48  | Vector Databases     | Indexes, ANN search, metadata filters  | Vector DB integration      |
+| 49  | BM25                 | Sparse search, lexical matching        | BM25 retriever             |
+| 50  | Hybrid Search        | Reciprocal rank fusion, reweighting    | Hybrid RAG core            |
+| 51  | Reranking            | Cross-encoders, re-rank APIs           | Reranking pipeline         |
+| 52  | Context Compression  | Summarization, selective context       | Context compressor         |
+| 53  | Query Transformation | Expansion, rewriting, rephrasing       | Query transformer          |
+| 54  | Advanced RAG         | GraphRAG, multi-hop, agentic retrieval | Advanced RAG module        |
+| 55  | RAG Evaluation       | Retrieval recall, answer faithfulness  | Retrieval eval harness     |
+| 56  | Production RAG       | Caching, batching, failure handling    | Production RAG API         |
 
 **Final projects:** Enterprise knowledge base; production RAG API with citations and evals.
 
@@ -252,20 +252,20 @@ Every lesson follows one loop. Build, don't just read:
 
 **Goal:** Build systems where models take actions, not just answer.
 
-| # | Topic | Key ideas | Project |
-|---|---|---|---|
-| 57 | What Is an Agent? | Agent loops, goals, tools | Definition & taxonomy |
-| 58 | Agent Architecture | ReAct, Plan-and-Solve, ToT | Agent framework comparison |
-| 59 | Tool Calling | Tool schemas, calling, execution | Tool registry |
-| 60 | Agent State | Sessions, persistence, replay | State manager |
-| 61 | Agent Memory | Short/long-term, summaries, vector memory | Memory subsystem |
-| 62 | Planning | Decomposition, subgoals, execution | Planner module |
-| 63 | Reflection | Self-critique, verification | Reflection wrapper |
-| 64 | Human-in-the-Loop | Approvals, pausing, steering | Approval gate |
-| 65 | Multi-Agent Systems | Roles, handoffs, coordination | Two-agent task |
-| 66 | Multi-Agent Communication | Channels, blackboards, RPC | Agent communication bus |
-| 67 | Agent Reliability | Guards, timeouts, circuit breakers | Agent reliability suite |
-| 68 | Agent Evaluation | Trace analysis, outcome eval | Agent eval harness |
+| #   | Topic                     | Key ideas                                 | Project                    |
+| --- | ------------------------- | ----------------------------------------- | -------------------------- |
+| 57  | What Is an Agent?         | Agent loops, goals, tools                 | Definition & taxonomy      |
+| 58  | Agent Architecture        | ReAct, Plan-and-Solve, ToT                | Agent framework comparison |
+| 59  | Tool Calling              | Tool schemas, calling, execution          | Tool registry              |
+| 60  | Agent State               | Sessions, persistence, replay             | State manager              |
+| 61  | Agent Memory              | Short/long-term, summaries, vector memory | Memory subsystem           |
+| 62  | Planning                  | Decomposition, subgoals, execution        | Planner module             |
+| 63  | Reflection                | Self-critique, verification               | Reflection wrapper         |
+| 64  | Human-in-the-Loop         | Approvals, pausing, steering              | Approval gate              |
+| 65  | Multi-Agent Systems       | Roles, handoffs, coordination             | Two-agent task             |
+| 66  | Multi-Agent Communication | Channels, blackboards, RPC                | Agent communication bus    |
+| 67  | Agent Reliability         | Guards, timeouts, circuit breakers        | Agent reliability suite    |
+| 68  | Agent Evaluation          | Trace analysis, outcome eval              | Agent eval harness         |
 
 **Final projects:** Research agent; coding agent with code execution; customer support agent.
 
@@ -275,13 +275,13 @@ Every lesson follows one loop. Build, don't just read:
 
 **Goal:** Use the open standard for connecting models to tools and data.
 
-| # | Topic | Key ideas | Project |
-|---|---|---|---|
-| 69 | MCP Fundamentals | What, why, core primitives | MCP primer |
-| 70 | MCP Architecture | Clients, servers, transports | Architecture diagram |
-| 71 | Build an MCP Server | Tools, resources, prompts | Filesystem server |
-| 72 | MCP Security | Auth, permissions, sandboxing | Secure MCP server |
-| 73 | MCP Production Architecture | Gateways, routing, monitoring | Multi-server MCP platform |
+| #   | Topic                       | Key ideas                     | Project                   |
+| --- | --------------------------- | ----------------------------- | ------------------------- |
+| 69  | MCP Fundamentals            | What, why, core primitives    | MCP primer                |
+| 70  | MCP Architecture            | Clients, servers, transports  | Architecture diagram      |
+| 71  | Build an MCP Server         | Tools, resources, prompts     | Filesystem server         |
+| 72  | MCP Security                | Auth, permissions, sandboxing | Secure MCP server         |
+| 73  | MCP Production Architecture | Gateways, routing, monitoring | Multi-server MCP platform |
 
 **Final projects:** Database MCP server; GitHub MCP server; multi-server MCP platform.
 
@@ -291,23 +291,23 @@ Every lesson follows one loop. Build, don't just read:
 
 **Goal:** Operate AI systems in real production environments.
 
-| # | Topic | Key ideas | Project |
-|---|---|---|---|
-| 74 | API Architecture | REST, paths, status codes | API design |
-| 75 | FastAPI | Routes, dependencies, validation | AI service API |
-| 76 | Caching | In-memory, distributed, invalidation | Caching layer |
-| 77 | Message Queues | Producers, consumers, retries | Async task queue |
-| 78 | Event-Driven Architecture | Events, streams, fan-out | Event-driven demo |
-| 79 | Distributed Systems | Consistency, replication, partitioning | Distributed cache |
-| 80 | Kubernetes | Pods, deployments, services | K8s deployment |
-| 81 | AI Inference Infrastructure | GPU infra, vLLM, batch | Inference service |
-| 82 | LLM Gateway | Routing, fallbacks, cost | AI gateway |
-| 83 | Observability | Logs, metrics, traces | OTel integration |
-| 84 | AI Observability | Tracing LLM calls, evals | AI observability dashboard |
-| 85 | Reliability | Retries, timeouts, circuit breakers | Reliability patterns |
-| 86 | Security | Env management, secrets, network policies | Security baseline |
-| 87 | AI Security | Prompt injection, data leakage, jailbreaks | Secure RAG module |
-| 88 | Cost Engineering | Budgets, alerts, optimization | Cost tracker |
+| #   | Topic                       | Key ideas                                  | Project                    |
+| --- | --------------------------- | ------------------------------------------ | -------------------------- |
+| 74  | API Architecture            | REST, paths, status codes                  | API design                 |
+| 75  | FastAPI                     | Routes, dependencies, validation           | AI service API             |
+| 76  | Caching                     | In-memory, distributed, invalidation       | Caching layer              |
+| 77  | Message Queues              | Producers, consumers, retries              | Async task queue           |
+| 78  | Event-Driven Architecture   | Events, streams, fan-out                   | Event-driven demo          |
+| 79  | Distributed Systems         | Consistency, replication, partitioning     | Distributed cache          |
+| 80  | Kubernetes                  | Pods, deployments, services                | K8s deployment             |
+| 81  | AI Inference Infrastructure | GPU infra, vLLM, batch                     | Inference service          |
+| 82  | LLM Gateway                 | Routing, fallbacks, cost                   | AI gateway                 |
+| 83  | Observability               | Logs, metrics, traces                      | OTel integration           |
+| 84  | AI Observability            | Tracing LLM calls, evals                   | AI observability dashboard |
+| 85  | Reliability                 | Retries, timeouts, circuit breakers        | Reliability patterns       |
+| 86  | Security                    | Env management, secrets, network policies  | Security baseline          |
+| 87  | AI Security                 | Prompt injection, data leakage, jailbreaks | Secure RAG module          |
+| 88  | Cost Engineering            | Budgets, alerts, optimization              | Cost tracker               |
 
 **Final projects:** AI gateway; distributed inference cluster; AI observability platform.
 
@@ -317,16 +317,16 @@ Every lesson follows one loop. Build, don't just read:
 
 **Goal:** Combine everything and design complete AI systems.
 
-| # | Topic | Key ideas |
-|---|---|---|
-| 89 | System Design Fundamentals | Requirements, scalability, trade-offs |
-| 90 | AI System Design Framework | The AI-specific design process |
-| 91 | System Design: RAG | Enterprise knowledge base |
-| 92 | System Design: AI Search | Perplexity-style search |
-| 93 | System Design: Coding Agent | Agent-assisted development |
-| 94 | System Design: Customer Support AI | RAG + agents + tickets |
-| 95 | System Design: AI Analytics | SQL agents + BI |
-| 96 | System Design: Multi-Agent Platform | Swarms + orchestration |
+| #   | Topic                               | Key ideas                             |
+| --- | ----------------------------------- | ------------------------------------- |
+| 89  | System Design Fundamentals          | Requirements, scalability, trade-offs |
+| 90  | AI System Design Framework          | The AI-specific design process        |
+| 91  | System Design: RAG                  | Enterprise knowledge base             |
+| 92  | System Design: AI Search            | Perplexity-style search               |
+| 93  | System Design: Coding Agent         | Agent-assisted development            |
+| 94  | System Design: Customer Support AI  | RAG + agents + tickets                |
+| 95  | System Design: AI Analytics         | SQL agents + BI                       |
+| 96  | System Design: Multi-Agent Platform | Swarms + orchestration                |
 
 </details>
 
@@ -371,16 +371,16 @@ Skills: `/learn` (tutor loop), `/course-guide` (find the lesson), `/check-unders
 
 Copy this table into your own repo or Notion. It's the progress dashboard for your 8-volume journey.
 
-| Volume | Focus | Status | Key project completed |
-|---|---|---|---|
-| I | Computer Science & Python | ⬜ | Backend API |
-| II | Machine Learning & Deep Learning | ⬜ | Transformer from scratch |
-| III | LLM Engineering | ⬜ | AI chatbot + gateway |
-| IV | RAG | ⬜ | Production RAG API |
-| V | Agentic AI | ⬜ | Research agent |
-| VI | MCP | ⬜ | MCP platform |
-| VII | Production Infrastructure | ⬜ | AI gateway |
-| VIII | System Design | ⬜ | Capstone |
+| Volume | Focus                            | Status | Key project completed    |
+| ------ | -------------------------------- | ------ | ------------------------ |
+| I      | Computer Science & Python        | ⬜     | Backend API              |
+| II     | Machine Learning & Deep Learning | ⬜     | Transformer from scratch |
+| III    | LLM Engineering                  | ⬜     | AI chatbot + gateway     |
+| IV     | RAG                              | ⬜     | Production RAG API       |
+| V      | Agentic AI                       | ⬜     | Research agent           |
+| VI     | MCP                              | ⬜     | MCP platform             |
+| VII    | Production Infrastructure        | ⬜     | AI gateway               |
+| VIII   | System Design                    | ⬜     | Capstone                 |
 
 ### 3. Learning Paths (curated routes)
 
@@ -393,14 +393,14 @@ Copy this table into your own repo or Notion. It's the progress dashboard for yo
 
 ### 4. Every lesson ships something
 
-| Artifact | What it is | Where to use it |
-|---|---|---|
-| **Prompts** | Expert-level prompt templates | Paste into any AI assistant |
-| **Skills** | `SKILL.md` files | Claude Code, Codex, Cursor |
-| **Agents** | Autonomous worker loops | Run as scheduled agents |
-| **MCP Servers** | Tool & data integrations | Any MCP-compatible client |
-| **Checkpoints** | One-click quizzes | Self-test after each volume |
-| **Interview Questions** | Q&A bank with answers | One click to reveal |
+| Artifact                | What it is                    | Where to use it             |
+| ----------------------- | ----------------------------- | --------------------------- |
+| **Prompts**             | Expert-level prompt templates | Paste into any AI assistant |
+| **Skills**              | `SKILL.md` files              | Claude Code, Codex, Cursor  |
+| **Agents**              | Autonomous worker loops       | Run as scheduled agents     |
+| **MCP Servers**         | Tool & data integrations      | Any MCP-compatible client   |
+| **Checkpoints**         | One-click quizzes             | Self-test after each volume |
+| **Interview Questions** | Q&A bank with answers         | One click to reveal         |
 
 ### 5. Read it as a book
 
@@ -414,64 +414,64 @@ Every project comes with a deliverables checklist, a "done" definition, and the 
 
 ### Warmups (7)
 
-1. **CLI Assistant** — a task runner built with Python | *prereq: functions*
-2. **Typed data pipeline** — with mypy + strict type hints | *prereq: type system*
-3. **Plugin system** — load modules dynamically | *prereq: OOP*
-4. **Async web scraper** — concurrent fetches with rate limiting | *prereq: async*
-5. **Parallel processing worker** — CPU-bound parallelism | *prereq: concurrency*
-6. **HTTP server from scratch** — raw TCP + request parsing | *prereq: networking*
-7. **High-performance cache** — LRU with TTL | *prereq: Redis*
+1. **CLI Assistant** — a task runner built with Python | _prereq: functions_
+2. **Typed data pipeline** — with mypy + strict type hints | _prereq: type system_
+3. **Plugin system** — load modules dynamically | _prereq: OOP_
+4. **Async web scraper** — concurrent fetches with rate limiting | _prereq: async_
+5. **Parallel processing worker** — CPU-bound parallelism | _prereq: concurrency_
+6. **HTTP server from scratch** — raw TCP + request parsing | _prereq: networking_
+7. **High-performance cache** — LRU with TTL | _prereq: Redis_
 
 ### Core builds (33)
 
-| Project | Core concepts | Deliverables |
-|---|---|---|
-| **Production backend API** | FastAPI, Postgres, auth, Docker | API, migrations, tests, compose |
-| **Transformer from scratch** | Attention, training loop | Working train on tiny corpus |
-| **AI chatbot (streaming)** | LLM API, streaming, sessions | Chat UI + API |
-| **Structured output extractor** | JSON mode, validation | Reliable JSON pipeline |
-| **LLM gateway** | Routing, fallbacks, caching | Multi-model router |
-| **Enterprise knowledge base** | Doc ingestion, chunking, embeddings | Full RAG with sources |
-| **Hybrid search engine** | BM25 + dense fusion | Reciprocal-rank fusion |
-| **Production RAG API** | Caching, reranking, evals | API + eval harness |
-| **Research agent** | Tools, planning, code exec | Solves multi-step queries |
-| **Coding agent** | Code read/write, tests | Refactors & writes code |
-| **Agent state manager** | Sessions, persistence | Replayable sessions |
-| **Multi-agent task solver** | Role distribution | 3-agent pipeline |
-| **Filesystem MCP server** | Tools, resources | MCP server |
-| **Database MCP server** | SQL through MCP | Queryable MCP server |
-| **AI observability** | OTel, traces, dashboards | Observability stack |
-| **AI gateway** | Cost routing, quotas, fallbacks | Cost-optimized gateway |
-| **Quantization harness** | int8/int4, accuracy comparison | Benchmarks |
-| **Fine-tuning pipeline** | SFT + eval loop | Custom instructions |
-| **Vector DB integration** | ANN search, filters | Retrieval service |
-| **Query transformer** | Rewriting, expansion | Better queries |
-| **Reranking pipeline** | Cross-encoder re-ranking | Accuracy uplift |
-| **Context compressor** | Selective context | Context reduction |
-| **Agent memory subsystem** | Vector + summary memory | Context window optimizer |
-| **Agentic RAG** | Retrieval loop with agent | Self-correcting retrieval |
-| **Security audit module** | Prompt injection detection | Secure RAG |
-| **Cost tracker** | Budgets, alerts, spend | Cost dashboard |
-| **Kubernetes deployment** | Pods, services, ingress | K8s manifests |
-| **Event-driven worker** | Queue, retry, DLQ | Async pipeline |
-| **LLM eval harness** | Automated grading | Eval suite |
-| **Benchmark suite** | Latency, throughput, cost | Benchmarks |
-| **Sandboxed execution** | Isolated code exec | Safe runner |
-| **Multi-region RAG** | Replication, latency | Distributed retrieval |
-| **Capstone: AI Knowledge Platform** | All of Volume IV + V | Portfolio piece |
+| Project                             | Core concepts                       | Deliverables                    |
+| ----------------------------------- | ----------------------------------- | ------------------------------- |
+| **Production backend API**          | FastAPI, Postgres, auth, Docker     | API, migrations, tests, compose |
+| **Transformer from scratch**        | Attention, training loop            | Working train on tiny corpus    |
+| **AI chatbot (streaming)**          | LLM API, streaming, sessions        | Chat UI + API                   |
+| **Structured output extractor**     | JSON mode, validation               | Reliable JSON pipeline          |
+| **LLM gateway**                     | Routing, fallbacks, caching         | Multi-model router              |
+| **Enterprise knowledge base**       | Doc ingestion, chunking, embeddings | Full RAG with sources           |
+| **Hybrid search engine**            | BM25 + dense fusion                 | Reciprocal-rank fusion          |
+| **Production RAG API**              | Caching, reranking, evals           | API + eval harness              |
+| **Research agent**                  | Tools, planning, code exec          | Solves multi-step queries       |
+| **Coding agent**                    | Code read/write, tests              | Refactors & writes code         |
+| **Agent state manager**             | Sessions, persistence               | Replayable sessions             |
+| **Multi-agent task solver**         | Role distribution                   | 3-agent pipeline                |
+| **Filesystem MCP server**           | Tools, resources                    | MCP server                      |
+| **Database MCP server**             | SQL through MCP                     | Queryable MCP server            |
+| **AI observability**                | OTel, traces, dashboards            | Observability stack             |
+| **AI gateway**                      | Cost routing, quotas, fallbacks     | Cost-optimized gateway          |
+| **Quantization harness**            | int8/int4, accuracy comparison      | Benchmarks                      |
+| **Fine-tuning pipeline**            | SFT + eval loop                     | Custom instructions             |
+| **Vector DB integration**           | ANN search, filters                 | Retrieval service               |
+| **Query transformer**               | Rewriting, expansion                | Better queries                  |
+| **Reranking pipeline**              | Cross-encoder re-ranking            | Accuracy uplift                 |
+| **Context compressor**              | Selective context                   | Context reduction               |
+| **Agent memory subsystem**          | Vector + summary memory             | Context window optimizer        |
+| **Agentic RAG**                     | Retrieval loop with agent           | Self-correcting retrieval       |
+| **Security audit module**           | Prompt injection detection          | Secure RAG                      |
+| **Cost tracker**                    | Budgets, alerts, spend              | Cost dashboard                  |
+| **Kubernetes deployment**           | Pods, services, ingress             | K8s manifests                   |
+| **Event-driven worker**             | Queue, retry, DLQ                   | Async pipeline                  |
+| **LLM eval harness**                | Automated grading                   | Eval suite                      |
+| **Benchmark suite**                 | Latency, throughput, cost           | Benchmarks                      |
+| **Sandboxed execution**             | Isolated code exec                  | Safe runner                     |
+| **Multi-region RAG**                | Replication, latency                | Distributed retrieval           |
+| **Capstone: AI Knowledge Platform** | All of Volume IV + V                | Portfolio piece                 |
 
 ### Capstones (6)
 
 Each capstone combines 3+ volumes into a production-grade system.
 
-| # | Capstone | Volumes combined | Outcome |
-|---|---|---|---|
-| 1 | **AI Knowledge Platform** | III + IV + VII | Full RAG with citations, evals, observability |
-| 2 | **AI Coding Agent** | III + V + VII | Code read/write, tests, CI integration |
-| 3 | **AI Research Platform** | IV + V + VI | Multi-agent research with source tracking |
-| 4 | **Enterprise Customer Support AI** | III + IV + V + VII | Ticket triage, RAG, approval gates |
-| 5 | **AI Analytics Platform** | III + V + VII | SQL + BI agents with guardrails |
-| 6 | **AI Platform (multi-agent swarms)** | V + VI + VII + VIII | Distributed agent orchestration |
+| #   | Capstone                             | Volumes combined    | Outcome                                       |
+| --- | ------------------------------------ | ------------------- | --------------------------------------------- |
+| 1   | **AI Knowledge Platform**            | III + IV + VII      | Full RAG with citations, evals, observability |
+| 2   | **AI Coding Agent**                  | III + V + VII       | Code read/write, tests, CI integration        |
+| 3   | **AI Research Platform**             | IV + V + VI         | Multi-agent research with source tracking     |
+| 4   | **Enterprise Customer Support AI**   | III + IV + V + VII  | Ticket triage, RAG, approval gates            |
+| 5   | **AI Analytics Platform**            | III + V + VII       | SQL + BI agents with guardrails               |
+| 6   | **AI Platform (multi-agent swarms)** | V + VI + VII + VIII | Distributed agent orchestration               |
 
 Each capstone includes: architecture doc, data model, API design, deployment, evaluation, security review, and cost estimate.
 
@@ -485,15 +485,15 @@ Each capstone includes: architecture doc, data model, API design, deployment, ev
 
 ### 📊 Question counts by domain
 
-| Domain | Questions | Level coverage |
-|---|---:|---|
-| LLMs & Transformers | 13 | 🟢 🟡 🔴 |
-| Prompt Engineering & LLM APIs | 9 | 🟢 🟡 |
-| RAG & Retrieval | 14 | 🟢 🟡 🔴 |
-| Agents & Multi-Agent | 13 | 🟢 🟡 🔴 |
-| MCP & Tool Integration | 6 | 🟡 🔴 |
-| Production, Infra & System Design | 20 | 🟡 🔴 ⚫ |
-| Behavioral & Engineering Judgment | 5 | 🔴 |
+| Domain                            | Questions | Level coverage |
+| --------------------------------- | --------: | -------------- |
+| LLMs & Transformers               |        13 | 🟢 🟡 🔴       |
+| Prompt Engineering & LLM APIs     |         9 | 🟢 🟡          |
+| RAG & Retrieval                   |        14 | 🟢 🟡 🔴       |
+| Agents & Multi-Agent              |        13 | 🟢 🟡 🔴       |
+| MCP & Tool Integration            |         6 | 🟡 🔴          |
+| Production, Infra & System Design |        20 | 🟡 🔴 ⚫       |
+| Behavioral & Engineering Judgment |         5 | 🔴             |
 
 **Total: 80 questions**
 
@@ -878,18 +878,18 @@ Set a timer for 60 seconds per question. No peeking until time's up. Then score 
 
 Before you touch a library, build the thing. These 10 challenges encode the handbook's core philosophy.
 
-| # | Challenge | What you build | Key skills |
-|---|---|---|---|
-| 1 | Build an HTTP server | Raw sockets, request parsing | Networking |
-| 2 | Build a database | B-trees, storage, queries | Data structures |
-| 3 | Build a cache | LRU, eviction, persistence | Concurrency |
-| 4 | Build a vector search engine | Index structures, ANN | Algorithm |
-| 5 | Build attention | From scratch, test it | Math |
-| 6 | Build a transformer block | Encoder/decoder block | Deep learning |
-| 7 | Build RAG without a framework | Chunking + embeddings + search | Retrieval |
-| 8 | Build an agent without a framework | The ReAct loop | Agenting |
-| 9 | Build an MCP server | Tools, resources, protocol | MCP |
-| 10 | Deploy everything | Containers, orchestration, CI/CD | Production |
+| #   | Challenge                          | What you build                   | Key skills      |
+| --- | ---------------------------------- | -------------------------------- | --------------- |
+| 1   | Build an HTTP server               | Raw sockets, request parsing     | Networking      |
+| 2   | Build a database                   | B-trees, storage, queries        | Data structures |
+| 3   | Build a cache                      | LRU, eviction, persistence       | Concurrency     |
+| 4   | Build a vector search engine       | Index structures, ANN            | Algorithm       |
+| 5   | Build attention                    | From scratch, test it            | Math            |
+| 6   | Build a transformer block          | Encoder/decoder block            | Deep learning   |
+| 7   | Build RAG without a framework      | Chunking + embeddings + search   | Retrieval       |
+| 8   | Build an agent without a framework | The ReAct loop                   | Agenting        |
+| 9   | Build an MCP server                | Tools, resources, protocol       | MCP             |
+| 10  | Deploy everything                  | Containers, orchestration, CI/CD | Production      |
 
 ---
 
@@ -978,25 +978,21 @@ Interview bank → identify weak volumes → study → build 2 capstones → int
 
 ## 📈 Progress Tracker (copy this)
 
-```markdown
-<!-- Paste into your own README.md -->
-
 ## 🚧 My Learning Journey
 
-| Volume | Status | Last done |
-|---|---|---|
-| I — Computer Science & Python | [ ] | — |
-| II — Machine Learning & Deep Learning | [ ] | — |
-| III — LLM Engineering | [ ] | — |
-| IV — RAG | [ ] | — |
-| V — Agentic AI | [ ] | — |
-| VI — MCP | [ ] | — |
-| VII — Production Infrastructure | [ ] | — |
-| VIII — System Design | [ ] | — |
+| Volume                                | Status | Last done |
+| ------------------------------------- | ------ | --------- |
+| I — Computer Science & Python         | [ ]    | —         |
+| II — Machine Learning & Deep Learning | [ ]    | —         |
+| III — LLM Engineering                 | [ ]    | —         |
+| IV — RAG                              | [ ]    | —         |
+| V — Agentic AI                        | [ ]    | —         |
+| VI — MCP                              | [ ]    | —         |
+| VII — Production Infrastructure       | [ ]    | —         |
+| VIII — System Design                  | [ ]    | —         |
 
 Capstones: [ ] x6
 Interview bank: [ ] x80
-```
 
 ---
 
@@ -1024,17 +1020,21 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 This handbook is free and open source. If it helps you build something:
 
 ### ⭐ Star the repository
+
 A star helps other engineers discover the project.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=lalitdotdev/-The-AI-Systems-Engineer-Handbook&type=Date)](https://star-history.com/#lalitdotdev/-The-AI-Systems-Engineer-Handbook&Date)
 
 ### 🍴 Fork it
+
 Build your own learning path, experiment with the projects, or run it for your team.
 
 ### 🛠️ Contribute
+
 Fix something broken, add a chapter, or write the first implementation of a planned phase.
 
 ### 📢 Share it
+
 Tell one friend who wants to become an AI engineer.
 
 ---

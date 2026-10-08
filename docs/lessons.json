@@ -1,0 +1,667 @@
+[
+  {
+    "volume": "01-computer-science-python",
+    "number": "01",
+    "slug": "python-fundamentals",
+    "title": "Python Fundamentals",
+    "difficulty": "beginner"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "02",
+    "slug": "python-type-system",
+    "title": "Python Type System",
+    "difficulty": "beginner"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "03",
+    "slug": "object-oriented-programming",
+    "title": "Object-Oriented Programming",
+    "difficulty": "beginner"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "04",
+    "slug": "advanced-python",
+    "title": "Advanced Python",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "05",
+    "slug": "async-python",
+    "title": "Async Python",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "06",
+    "slug": "concurrency",
+    "title": "Concurrency",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "07",
+    "slug": "memory-management",
+    "title": "Memory Management",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "08",
+    "slug": "data-structures",
+    "title": "Data Structures",
+    "difficulty": "beginner"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "09",
+    "slug": "algorithms",
+    "title": "Algorithms",
+    "difficulty": "beginner"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "10",
+    "slug": "complexity",
+    "title": "Complexity & Big-O",
+    "difficulty": "beginner"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "11",
+    "slug": "operating-systems",
+    "title": "Operating Systems",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "12",
+    "slug": "linux",
+    "title": "Linux",
+    "difficulty": "beginner"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "13",
+    "slug": "networking",
+    "title": "Networking",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "14",
+    "slug": "databases",
+    "title": "Databases",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "15",
+    "slug": "transactions",
+    "title": "Transactions",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "16",
+    "slug": "redis",
+    "title": "Redis",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "17",
+    "slug": "software-engineering",
+    "title": "Software Engineering",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "18",
+    "slug": "testing",
+    "title": "Testing",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "19",
+    "slug": "git",
+    "title": "Git",
+    "difficulty": "beginner"
+  },
+  {
+    "volume": "01-computer-science-python",
+    "number": "20",
+    "slug": "docker",
+    "title": "Docker",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "02-machine-learning",
+    "number": "21",
+    "slug": "mathematics",
+    "title": "Mathematics for ML",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "02-machine-learning",
+    "number": "22",
+    "slug": "numpy",
+    "title": "NumPy",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "02-machine-learning",
+    "number": "23",
+    "slug": "classical-machine-learning",
+    "title": "Classical ML",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "02-machine-learning",
+    "number": "24",
+    "slug": "ml-evaluation",
+    "title": "ML Evaluation",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "02-machine-learning",
+    "number": "25",
+    "slug": "pytorch",
+    "title": "PyTorch",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "02-machine-learning",
+    "number": "26",
+    "slug": "neural-networks",
+    "title": "Neural Networks",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "02-machine-learning",
+    "number": "27",
+    "slug": "computer-vision",
+    "title": "Computer Vision",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "02-machine-learning",
+    "number": "28",
+    "slug": "nlp-foundations",
+    "title": "NLP Foundations",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "02-machine-learning",
+    "number": "29",
+    "slug": "rnns-and-lstms",
+    "title": "RNNs & LSTMs",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "02-machine-learning",
+    "number": "31",
+    "slug": "transformers",
+    "title": "Transformers",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "03-llm-engineering",
+    "number": "32",
+    "slug": "tokenization",
+    "title": "Tokenization",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "03-llm-engineering",
+    "number": "33",
+    "slug": "embeddings",
+    "title": "Embeddings",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "03-llm-engineering",
+    "number": "34",
+    "slug": "llm-architecture",
+    "title": "LLM Architecture",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "03-llm-engineering",
+    "number": "35",
+    "slug": "next-token-prediction",
+    "title": "Next-Token Prediction",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "03-llm-engineering",
+    "number": "36",
+    "slug": "context-windows",
+    "title": "Context Windows",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "03-llm-engineering",
+    "number": "37",
+    "slug": "prompt-engineering",
+    "title": "Prompt Engineering",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "03-llm-engineering",
+    "number": "38",
+    "slug": "structured-outputs",
+    "title": "Structured Outputs",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "03-llm-engineering",
+    "number": "39",
+    "slug": "function-tool-calling",
+    "title": "Function / Tool Calling",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "03-llm-engineering",
+    "number": "40",
+    "slug": "llm-evaluation",
+    "title": "LLM Evaluation",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "03-llm-engineering",
+    "number": "41",
+    "slug": "fine-tuning",
+    "title": "Fine-Tuning",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "03-llm-engineering",
+    "number": "42",
+    "slug": "quantization",
+    "title": "Quantization",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "03-llm-engineering",
+    "number": "43",
+    "slug": "inference",
+    "title": "Inference Optimization",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "04-rag",
+    "number": "44",
+    "slug": "why-rag",
+    "title": "Why RAG?",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "04-rag",
+    "number": "45",
+    "slug": "document-processing",
+    "title": "Document Processing",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "04-rag",
+    "number": "46",
+    "slug": "chunking",
+    "title": "Chunking Strategies",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "04-rag",
+    "number": "47",
+    "slug": "embedding-models",
+    "title": "Embedding Models",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "04-rag",
+    "number": "48",
+    "slug": "vector-databases",
+    "title": "Vector Databases",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "04-rag",
+    "number": "49",
+    "slug": "bm25",
+    "title": "BM25 & Lexical Search",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "04-rag",
+    "number": "50",
+    "slug": "hybrid-search",
+    "title": "Hybrid Search",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "04-rag",
+    "number": "51",
+    "slug": "reranking",
+    "title": "Reranking",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "04-rag",
+    "number": "52",
+    "slug": "context-compression",
+    "title": "Context Compression",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "04-rag",
+    "number": "53",
+    "slug": "query-transformation",
+    "title": "Query Transformation",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "04-rag",
+    "number": "54",
+    "slug": "advanced-rag",
+    "title": "Advanced RAG",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "04-rag",
+    "number": "55",
+    "slug": "rag-evaluation",
+    "title": "RAG Evaluation",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "04-rag",
+    "number": "56",
+    "slug": "production-rag-architecture",
+    "title": "Production RAG",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "05-agents",
+    "number": "57",
+    "slug": "what-is-an-agent",
+    "title": "What Is an Agent?",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "05-agents",
+    "number": "58",
+    "slug": "agent-architecture",
+    "title": "Agent Architecture",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "05-agents",
+    "number": "59",
+    "slug": "tool-calling",
+    "title": "Tool Calling",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "05-agents",
+    "number": "60",
+    "slug": "agent-state",
+    "title": "Agent State",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "05-agents",
+    "number": "61",
+    "slug": "agent-memory",
+    "title": "Agent Memory",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "05-agents",
+    "number": "62",
+    "slug": "planning",
+    "title": "Planning",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "05-agents",
+    "number": "63",
+    "slug": "reflection",
+    "title": "Reflection",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "05-agents",
+    "number": "64",
+    "slug": "human-in-the-loop",
+    "title": "Human-in-the-Loop",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "05-agents",
+    "number": "65",
+    "slug": "multi-agent-systems",
+    "title": "Multi-Agent Systems",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "05-agents",
+    "number": "66",
+    "slug": "multi-agent-communication",
+    "title": "Multi-Agent Communication",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "05-agents",
+    "number": "67",
+    "slug": "agent-reliability",
+    "title": "Agent Reliability",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "05-agents",
+    "number": "68",
+    "slug": "agent-evaluation",
+    "title": "Agent Evaluation",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "06-mcp",
+    "number": "69",
+    "slug": "mcp-fundamentals",
+    "title": "MCP Fundamentals",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "06-mcp",
+    "number": "70",
+    "slug": "mcp-architecture",
+    "title": "MCP Architecture",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "06-mcp",
+    "number": "71",
+    "slug": "build-an-mcp-server",
+    "title": "Build an MCP Server",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "06-mcp",
+    "number": "72",
+    "slug": "mcp-security",
+    "title": "MCP Security",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "06-mcp",
+    "number": "73",
+    "slug": "mcp-production-architecture",
+    "title": "MCP Production Architecture",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "07-production",
+    "number": "74",
+    "slug": "api-architecture",
+    "title": "API Architecture",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "07-production",
+    "number": "75",
+    "slug": "fastapi",
+    "title": "FastAPI",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "07-production",
+    "number": "76",
+    "slug": "caching",
+    "title": "Caching",
+    "difficulty": "intermediate"
+  },
+  {
+    "volume": "07-production",
+    "number": "77",
+    "slug": "message-queues",
+    "title": "Message Queues",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "07-production",
+    "number": "78",
+    "slug": "event-driven-architecture",
+    "title": "Event-Driven Architecture",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "07-production",
+    "number": "79",
+    "slug": "distributed-systems",
+    "title": "Distributed Systems",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "07-production",
+    "number": "80",
+    "slug": "kubernetes",
+    "title": "Kubernetes",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "07-production",
+    "number": "81",
+    "slug": "ai-inference-infrastructure",
+    "title": "AI Inference Infrastructure",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "07-production",
+    "number": "82",
+    "slug": "llm-gateway",
+    "title": "LLM Gateway",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "07-production",
+    "number": "83",
+    "slug": "observability",
+    "title": "Observability",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "07-production",
+    "number": "84",
+    "slug": "ai-observability",
+    "title": "AI Observability",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "07-production",
+    "number": "85",
+    "slug": "reliability",
+    "title": "Reliability",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "07-production",
+    "number": "86",
+    "slug": "security",
+    "title": "Security",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "07-production",
+    "number": "87",
+    "slug": "ai-security",
+    "title": "AI Security",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "07-production",
+    "number": "88",
+    "slug": "cost-engineering",
+    "title": "Cost Engineering",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "08-system-design",
+    "number": "89",
+    "slug": "system-design-fundamentals",
+    "title": "System Design Fundamentals",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "08-system-design",
+    "number": "90",
+    "slug": "ai-system-design-framework",
+    "title": "AI System Design Framework",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "08-system-design",
+    "number": "91",
+    "slug": "system-design-rag",
+    "title": "Design: RAG System",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "08-system-design",
+    "number": "92",
+    "slug": "system-design-ai-search",
+    "title": "Design: AI Search",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "08-system-design",
+    "number": "93",
+    "slug": "system-design-coding-agent",
+    "title": "Design: Coding Agent",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "08-system-design",
+    "number": "94",
+    "slug": "system-design-customer-support",
+    "title": "Design: Customer Support AI",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "08-system-design",
+    "number": "95",
+    "slug": "system-design-ai-analytics",
+    "title": "Design: AI Analytics Platform",
+    "difficulty": "advanced"
+  },
+  {
+    "volume": "08-system-design",
+    "number": "96",
+    "slug": "system-design-multi-agent-platform",
+    "title": "Design: Multi-Agent Platform",
+    "difficulty": "advanced"
+  }
+]
